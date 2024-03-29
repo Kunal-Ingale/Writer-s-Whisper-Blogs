@@ -14,15 +14,7 @@ export default function About() {
         </p>
         </div>
         <div className="aboutItem">
-        {/* <span className="aboutTitle">Languages </span>
-        <ul className="aboutList">
-        <li className="sidebarListItem">JavaScript</li>
-        <li className="sidebarListItem">C++</li>
-        <li className="sidebarListItem">HTML</li>
-        <li className="sidebarListItem">CSS</li>
-        <li className="sidebarListItem">Node</li>
-        <li className="sidebarListItem">React JS</li> */}
-        {/* </ul>        */}
+       
         </div> 
         <div className="aboutItem">
         <span className="aboutTitle ">Connect with Me</span>
