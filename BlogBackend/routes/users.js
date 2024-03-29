@@ -23,36 +23,11 @@ router.put('/:id',async (req,res)=>{
    catch (error) {
     res.status(500).json(error);
    }}
-   // else{
-   //  res.status(401).json("You can only update yours info")
-   // }
+   else{
+    res.status(401).json("You can only update yours info")
+   }
 })    
 
-// //delete
-// router.delete('/:id',async(req,res) =>{
-//     if(req.body.userId === req.params.id){
-//       if(User){
-//           try {
-//             const user = await User.findById(req.params.id)
-
-//           try {
-//          await Post.deleteMany({username:user.username})
-//          await User.findByIdAndDelete(req.params.id)
-//          res.status(200).json("user has been deleted successfully!")
-
-//       } catch (error) {
-//          res.status(500).json(error)
-//       } }
-//       catch (error) {
-//        res.status(500).json("USer Not found!")    
-//       }
-//    }
-      
-//     }
-//     else{
-//       res.status(401).json("You can only delete your account");
-//     }
-// })
 
 router.get('/:id',async (req,res)=>{
   
