@@ -1,0 +1,79 @@
+.post {
+  width: 385px;
+  margin: 0px 25px 40px 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.postImg {
+  width: 385px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 7px;
+  transition: transform 0.3s ease; 
+}
+
+.postImg:hover {
+  transform: scale(1.06); /* Increase size of image on hover */
+ 
+}
+
+.postInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.postCat {
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16 px;
+  color: #be9656;
+  line-height: 19px;
+  margin-top: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: #3e45cd; /* Default text color */
+  transition:  0.3s ease;
+}
+
+.postCat:hover{
+  color: #fd9d02; 
+}
+
+.postTitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 15px; 
+  cursor: pointer;
+  color: #060606; /* Default text color */
+  transition:  0.3s ease;
+}
+
+.postTitle:hover {
+  color: #e21b1b; /* Change text color on hover to red */
+}
+
+.postDate {
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-size: 13px;
+  font-weight: 400;
+  color: #999999;
+  margin-top: 15px;
+}
+
+.postDesc {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #444444;
+  margin-top: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}

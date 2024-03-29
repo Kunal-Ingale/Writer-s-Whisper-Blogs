@@ -1,0 +1,82 @@
+.write {
+    padding-top: 50px;
+    padding-left: 10px;;
+  }
+  
+  .writeImg {
+    margin-left: 150px;
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .writeForm {
+    position: relative;
+  }
+  
+  .Part {
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+  }
+
+  .image{
+    margin-left: 150px;
+    width: 70vw;
+    height:60vh;  
+    border-radius: 10px;
+    /* object-fit: cover; */
+  }
+  
+  .writeIcon {
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  
+  .writeInput {
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    
+    width: 70vw;
+  }
+  
+  .writeInput::placeholder {
+    color: rgb(189, 185, 185);
+    font-weight: 400;
+  }
+  
+  .writeInput:focus {
+    outline-style: none;
+  }
+  
+  .writeText {
+    width: 70vw;
+    height: 100vh;
+    font-family: inherit;
+    font-size: 20px;
+  }
+  
+  .submit {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
