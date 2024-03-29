@@ -1,6 +1,6 @@
 
 import Header from '../../components/Header/Header'
-import SideBar from '../Sidebar/SideBar'
+
 import Posts from '../../Pages/Posts/Posts'
 import axios from 'axios'
 import { useState,useEffect } from 'react'
@@ -31,7 +31,7 @@ function Home() {
     <Header/>
     <div className='home'>
     <Posts posts ={posts}/>
-    {/* <SideBar/> */}
+   
     </div>
     </>
   )
@@ -42,10 +42,3 @@ export default Home
 
 
 
-// useEffect(()=>{
-//   const getPosts = async()=>{
-//     const Res = await axios.get('url')
-//     console.log(Res.data);
-//   }
-//   getPosts()
-// },[])
